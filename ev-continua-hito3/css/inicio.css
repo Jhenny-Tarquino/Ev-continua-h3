@@ -1,0 +1,81 @@
+*{
+   
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+}
+.fondo {
+    height: 100vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7d/Fexco_Cochabamba.jpg'); /* Cambia por tu imagen */
+    background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;    
+      padding-top: 250px;     
+    }
+
+    .titulo {
+      color: white;
+      font-size: 36px;
+      text-align: center;
+      background-color: #160f48;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .texto {
+      margin-top: 50px;
+      background-color: rgba(152, 146, 146, 0.717);
+      padding: 50px;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+      width: 50%;
+      max-width: 600px;
+    }
+    .logo {
+      position: absolute;
+      top: 3%;
+      left: 180px;
+      transform: translateX(-50%);
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 8px black;
+      z-index: 1;
+     
+    }
+    .footer {
+      background-color: #160f48;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+    
+    .footer-section {
+      max-width: 300px;
+    }
+    
+    .footer-section h3 {
+      margin-bottom: 10px;
+      font-size: 1.4em;
+      border-bottom: 2px solid white;
+      padding-bottom: 5px;
+    }
+    
+    .footer-section p {
+      margin: 5px 0;
+    }
+    
+    .footer a {
+      color: #bbb;
+      text-decoration: none;
+    }
+    
+    .footer a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }

@@ -1,0 +1,80 @@
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 180px;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+    z-index: 1;
+   
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .fondo {
+    background-color: #160f48;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .cuadro {
+    background-color: white;
+    color: #160f48;
+    padding: 20px;
+    margin: 10px 0; 
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.911);
+    width: 50%;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 2em; 
+    color: white;
+    
+  }
+  
+  .opciones h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  .footer {
+    background-color: #160f48;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
